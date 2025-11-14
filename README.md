@@ -1,13 +1,95 @@
-# SQL_Project_Music_Store_Analysis
-SQL project to analyze online music store data
+🎵 Music Store SQL Analysis Project (PostgreSQL + pgAdmin4)
 
-This project is for beginners and will teach you how to analyze the music playlist database. You can examine the dataset with SQL and help the store understand its business growth by answering simple questions.
+This project focuses on analyzing an online Music Store Database using SQL on PostgreSQL, executed through pgAdmin4.
+It is designed for SQL beginners and intermediate learners to understand how data in a digital music store can be used to derive business insights such as customer behavior, sales trends, and product performance.
 
-> Complete project explained on YouTube: https://www.youtube.com/watch?v=VFIuIjswMKM
+📦 Project Contents in This Repository
+1. SQL Files
 
-## Database and Tools
-* Postgre SQL
-* PgAdmin4
+Music_Store_Query.sql – Main SQL file containing analysis queries (JOINs, GROUP BY, aggregations, subqueries).
 
-Schema- Music Store Database  
-![MusicDatabaseSchema](https://user-images.githubusercontent.com/112153548/213707717-bfc9f479-52d9-407b-99e1-e94db7ae10a3.png)
+Music_Store_database.sql – SQL script to create/restore the Music Store (Chinook) database schema and tables.
+
+2. Documentation
+
+Music Store Analysis-Questions.pdf – Set of questions used to analyze the music store dataset.
+
+MusicDatabaseSchema.png – ER diagram displaying all tables: Artists, Albums, Tracks, Genres, Playlists, Customers, Invoices, etc.
+
+Raw-Music Store Analysis-SQL Project.zip – Raw project files used during setup.
+
+3. Dataset Files
+
+album2.csv – Sample exported album dataset used for testing.
+
+music store data.zip – Complete Music Store database data files.
+
+🗂️ Database Details
+
+This project uses the Chinook Music Store Database, which includes:
+
+Artist
+
+Album
+
+Track
+
+Genre
+
+Playlist
+
+PlaylistTrack
+
+Customer
+
+Invoice
+
+InvoiceLine
+
+Employee
+
+These tables reflect a real-world music store structure with customers purchasing digital tracks.
+
+🛠️ Tools Used
+
+PostgreSQL (RDBMS)
+
+pgAdmin4 (SQL execution & database management)
+
+SQL (queries, analysis, insights)
+
+📊 Key Business Questions Solved
+
+Which music genres generate the highest revenue?
+
+Who are the top-paying customers?
+
+Which countries have the most invoices?
+
+Which artists have the most tracks?
+
+Monthly sales trends across invoices
+
+Playlist engagement insights
+
+🚀 How to Use This Project
+
+Install PostgreSQL & pgAdmin4
+
+Restore the database using Music_Store_database.sql
+
+Open Music_Store_Query.sql and run queries
+
+View insights and modify as needed
+
+📌 Purpose of This Project
+
+This project demonstrates:
+
+SQL query writing
+
+Relational data analysis
+
+PostgreSQL database handling
+
+Real business insights based on a digital music store
